@@ -22,7 +22,7 @@ secondPage.style.display = "none"
 btn.addEventListener("click", cambiarPantalla)
 
 function cambiarPantalla() {
-    if (input.value == "JC") {
+    if (input.value == "Jesus") {
         firstPage.style.display = "none"
         secondPage.style.display = "flex"
     } else {
