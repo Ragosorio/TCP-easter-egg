@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    background: #000;
+}
+.first-page{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.code{
+    color: rgb(228, 217, 217);
+    background: #000;
+    border: 1px solid #ff00bf;
+    font-size: 50px;
+    text-align: center;
+}
+.btn{
+    margin-top: 70px;
+    border: none;
+    color: rgb(228, 217, 217);
+    background: #ff00bf;
+    width: 500px;
+    height: 35px;
+    font-size: 20px;
+}
+.nosir{
+    animation: rago 0.3s;
+}
+@keyframes rago{
+    25%{
+        transform: translateX(4px);
+    }
+    50%{
+        transform: translateX(-4px);
+    }
+    75%{
+        transform: translateX(4px);
+    }
+}
+.btn:hover{
+    background: #ff00e1;
+}
+.second-page{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.second-page a{
+    height: 40px;
+    width: 400px;
+}
+.title{
+    color: #ff00bf;
+    font-size: 100px;
+    margin: 0;
+}
+.parrafos{
+    font-size: 40px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.text{
+    font-weight: bold;
+    color: rgb(228, 217, 217);
+}
+.cambio-color{
+    color: #ff00e1;
+}
+.second-page a button{
+    width: 100%;
+    height: 100%;
+    background: #ff00bf;
+    color: rgb(228, 217, 217);
+    border: none;
+    font-size: 20px;
+}
+.second-page a button:hover{
+    background: #ff00e1;
+}
+
+@media (max-width: 500px){
+    .code{
+        font-size: 35px;
+    }
+    .btn{
+        width: 300px;
+    }
+
+    .title{
+        font-size: 50px;
+    }
+    .parrafos{
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .second-page a {
+        width: 320px;
+    }
+}
+
+@media (max-width: 380px){
+    .code{
+        font-size: 25px;
+    }
+    .btn{
+        width: 290px;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+    .parrafos{
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 20px;
+    }
+    .second-page a {
+        width: 310px;
+    }
+}
